@@ -1,0 +1,22 @@
+.ox_bg {
+    background-color: #790030;
+}
+
+.ox_text {
+    color: #790030;
+}
+
+.dark_blue_bg {
+    background-color: #0d3f84;
+}
+
+.ash_bg {
+    background-color: #e6e6e6;
+}
+
+.ox_outline{
+    border: 1px solid #790030 !important;
+}
+.small_input{
+    max-width: 100px;
+}
