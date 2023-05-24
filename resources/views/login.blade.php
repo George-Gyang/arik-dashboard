@@ -30,7 +30,7 @@
             <div class="row justify-content-center h-100 align-items-center">
                 <div class="col-md-6">
                     <div class="mb-4">
-                        <img class="img-fluid col-6 offset-3"" src="{{ asset("/images/arik_logo.png") }}" alt="">
+                        <img class="img-fluid col-6 offset-3" src="{{ asset("/images/arik_logo.png") }}" alt="">
                     </div>
                     <div class="authincation-content">
                         <div class="row no-gutters">
