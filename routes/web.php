@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('pages/index');
 });
 
-Route::get("/login", function () {
-    return view("login");
+Route::get("/new-group-order", function () {
+    return view("pages/new-order");
+});
+
+Route::get("/pop-background", function () {
+    return view("pages/pop-background");
 });
 
 Route::get("/form", function () {
