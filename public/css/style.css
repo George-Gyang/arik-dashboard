@@ -21384,7 +21384,8 @@ svg text {
   background: #fff;
   border: 1px solid #d7dae3;
   color: #181c32;
-  height: 40px; }
+  /* height: 40px; */
+ }
   .form-control:hover, .form-control:focus, .form-control.active {
     box-shadow: none;
     background: #fff;

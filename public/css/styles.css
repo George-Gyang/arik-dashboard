@@ -27,7 +27,7 @@
 }
 
 .small_text{
-    font-size: 0.8rem;
+    font-size: 0.8rem !important;
 }
 .sky_bg{
     background-color: rgba(85, 112, 241, 0.12);

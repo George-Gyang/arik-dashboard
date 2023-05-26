@@ -28,3 +28,7 @@ Route::get("/pop-background", function () {
 Route::get("/form", function () {
     return view("booking-form");
 });
+
+Route::get("/general-view", function () {
+    return view("pages/general-view");
+});

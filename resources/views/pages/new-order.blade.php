@@ -44,7 +44,7 @@
                                     {{-- </div>
                                     </div> --}}
                                 </div>
-                                <p class="text-center mt-md-n4">TRIP </p>
+                                <p class="text-center mt-md-n4">TRIP PLANNER</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
