@@ -30,6 +30,40 @@
                                 <p class="text-center mt-md-n4">Adhoc Group Request</p>
                             </div>
                         </div>
+                        <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card overflow-hidden">
+                                <div class="card-body d-flex align-items-center justify-content-around">
+                                    {{-- <div class="row">
+                                        <div class="col"> --}}
+                                    <div class="p-md-3 col-8">
+                                        <a href="">
+                                            <img class="img-fluid" src="{{ asset('images/.png') }}"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    {{-- </div>
+                                    </div> --}}
+                                </div>
+                                <p class="text-center mt-md-n4">TRIP </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
+                            <div class="card overflow-hidden">
+                                <div class="card-body d-flex align-items-center justify-content-around">
+                                    {{-- <div class="row">
+                                        <div class="col"> --}}
+                                    <div class="p-md-3 col-8">
+                                        <a href="">
+                                            <img class="img-fluid" src="{{ asset('images/charter-booking.png') }}"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    {{-- </div>
+                                    </div> --}}
+                                </div>
+                                <p class="text-center mt-md-n4">CHARTERED BOOKING</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class=" col-lg-12 col-md-12">

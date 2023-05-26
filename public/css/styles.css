@@ -3,7 +3,8 @@
 }
 
 .ox_text {
-    color: #790030;
+    color: #730909
+    ;
 }
 
 .dark_blue_bg {
@@ -27,4 +28,11 @@
 
 .small_text{
     font-size: 0.8rem;
+}
+.sky_bg{
+    background-color: rgba(85, 112, 241, 0.12);
+}
+
+.ash_text{
+    color: #89879f;
 }
