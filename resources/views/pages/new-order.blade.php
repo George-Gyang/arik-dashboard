@@ -37,7 +37,7 @@
                                         <div class="col"> --}}
                                     <div class="p-md-3 col-8">
                                         <a href="">
-                                            <img class="img-fluid" src="{{ asset('images/.png') }}"
+                                            <img class="img-fluid" src="{{ asset('images/trip-planner.png') }}"
                                                 alt="">
                                         </a>
                                     </div>

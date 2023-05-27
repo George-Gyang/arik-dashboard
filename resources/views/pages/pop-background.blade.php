@@ -314,61 +314,69 @@
                                                 <table class="table table-responsive-xl mb-0">
                                                     <thead>
                                                         <tr>
-                                                            <th class="d-flex">Flight Number <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th class="d-flex">Flight Number <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Departure <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Departure <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Arrival <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Arrival <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Capacity <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Capacity <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Sold<span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Sold<span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Seat Avail <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Seat Avail <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Best fare <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Best fare <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
-                                                            <th>Disp Fare <span class="ms-1"><svg
-                                                                        xmlns="http://www.w3.org/2000/svg" width="20"
-                                                                        height="20" viewBox="0 0 2048 2048">
-                                                                        <path fill="currentColor"
-                                                                            d="M256 512h1536v128H256V512zm384 512V896h1152v128H640zm384 384v-128h768v128h-768z" />
-                                                                    </svg></span>
+                                                            <th>Disp Fare <span class="ms-1">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="15"
+                                                                    height="15" viewBox="0 0 24 24">
+                                                                    <path fill="none" stroke="currentColor"
+                                                                        stroke-linecap="round" stroke-width="2"
+                                                                        d="M3 6h18M6 12h12m-9 6h6" />
+                                                                </svg></span>
                                                             </th>
                                                         </tr>
                                                     </thead>

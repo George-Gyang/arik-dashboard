@@ -32,3 +32,7 @@ Route::get("/form", function () {
 Route::get("/general-view", function () {
     return view("pages/general-view");
 });
+
+Route::get("/summary", function () {
+    return view("pages/summary");
+});
