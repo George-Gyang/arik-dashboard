@@ -3,8 +3,7 @@
 }
 
 .ox_text {
-    color: #730909
-    ;
+    color: #730909 !important;
 }
 
 .dark_blue_bg {
@@ -40,3 +39,23 @@
 .medium_modal{
     max-width: 700px;
 }
+.empty_container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.empty_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(225, 226, 233, 1)    ;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+
+}
+

@@ -4,8 +4,8 @@
 
 
     <!--**********************************
-                                                                                                Content body start
-                                                                                            ***********************************-->
+                                                                                                                                Content body start
+                                                                                                                            ***********************************-->
     <div class="content-body">
         <!-- row -->
         <div class="container-fluid">
@@ -16,17 +16,12 @@
                             <div class="card overflow-hidden">
                                 <div type="button" class="card-body d-flex align-items-center justify-content-around"
                                     data-toggle="modal" data-target=".bd-example-modal-lg">
-                                    {{-- <div class="row">
-                                        <div class="col"> --}}
+
                                     <div class="p-md-3">
-                                        {{-- <a href=""> --}}
                                         <img class="img-fluid" src="{{ asset('images/airplane-ticket.png') }}"
                                             alt="">
-                                        {{-- </a> --}}
                                     </div>
                                     <p class="text-primary ms-lg-2 mb-0 mt-3 me-5 me-md-0  display-5">17</p>
-                                    {{-- </div>
-                                    </div> --}}
                                 </div>
                                 <p class="text-center mt-md-n4">Adhoc Group Request</p>
                             </div>
@@ -53,36 +48,23 @@
                             <div class="card overflow-hidden">
                                 <div href="" data-toggle="modal" {{-- data-target="#exampleModalCenter"> --}} <div type="button"
                                     class="card-body d-flex align-items-center justify-content-around data-toggle="modal"
-                                    data-target="#paymentModal"">
-                                    {{-- <div class="row">
-                                        <div class="col"> --}}
+                                    data-target="#paymentModal">
                                     <div class="p-md-3">
-                                        {{-- <a href=""> --}}
                                         <img class="img-fluid" src="{{ asset('images/cashless-payment .png') }}"
                                             alt="">
-                                        {{-- </a> --}}
                                     </div>
                                     <p class="text-primary ms-lg-2 mb-0 mt-3 me-5 me-md-0  display-5">22</p>
-                                    {{-- </div>
-                                    </div> --}}
                                 </div>
                                 <p class="text-center mt-md-n4">Make Payment</p>
-                                {{-- </div> --}}
                             </div>
                         </div>
                         <div class=" col-md-4 col-sm-6">
                             <div class="card overflow-hidden">
-                                <div class="card-body d-flex align-items-center justify-content-around">
-                                    {{-- <div class="row">
-                                        <div class="col"> --}}
+                                <div type="button" class="card-body d-flex align-items-center justify-content-around"
+                                    data-toggle="modal" data-target="#addModal">
                                     <div class="p-md-3 col-8">
-                                        <a href="">
-                                            <img class="img-fluid" src="{{ asset('images/add-friend.png') }}"
-                                                alt="">
-                                        </a>
+                                        <img class="img-fluid" src="{{ asset('images/add-friend.png') }}" alt="">
                                     </div>
-                                    {{-- </div>
-                                    </div> --}}
                                 </div>
                                 <p class="text-center mt-md-n4">Add Guest</p>
                             </div>
@@ -274,6 +256,98 @@
                             <div class="modal-footer justify-content-center">
                                 <button type="button" class="btn btn-outline-primary btn-lg">Cancel</button>
                                 <button type="button" class="btn btn-primary btn-lg">Create Order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal for add Customer -->
+                <div class="modal fade" id="addModal">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header align-items-center">
+                                <h5 class="modal-title">Add a New Customer</h5>
+                                <button type="button" class="close" data-dismiss="modal"><span
+                                        class="light px-2 rounded btn-warning ox_text">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Customer Information</p>
+                                <div class="row mt-3">
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg bg-light" type="text"
+                                            placeholder="Customer Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg bg-light" type="text"
+                                            placeholder="Customer Email">
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="d-flex bg-light rounded align-items-center">
+                                            <select class=" w-100 " id="inlineFormCustomSelect">
+                                                <option selected>+234</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="form-group">
+                                            <input class="form-control form-control-lg bg-light" type="text"
+                                                placeholder="8100646221">
+                                        </div>
+                                    </div>
+                                    <div class="form-check form-switch mb-3">
+                                        <label class="form-check-label ms-4" for="flexSwitchCheckChecked">Add
+                                            Address</label>
+                                        <input class="form-check-input ms-3 d-inline-block" type="checkbox"
+                                            role="switch" id="flexSwitchCheckChecked" checked>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg bg-light" type="text"
+                                            placeholder="Building No., Street Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg bg-light" type="text"
+                                            placeholder="City">
+                                    </div>
+
+                                    <div class="col-6 mb-3">
+                                        <div class="d-flex bg-light rounded align-items-center">
+                                            <select class=" w-100 " id="inlineFormCustomSelect">
+                                                <option selected>+Country</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <div class="d-flex bg-light rounded align-items-center">
+                                            <select class=" w-100 " id="inlineFormCustomSelect">
+                                                <option selected>State</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>Billing Address</p>
+                                        <p>Same as Customer Address</p>
+                                        <div class="me-5">
+                                            <div class="form-check form-switch">
+                                                <input class="form-check-input ms-3 d-inline-block" type="checkbox"
+                                                    role="switch" id="flexSwitchCheckChecked" checked>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Cancel</button>
+                                <button type="button" class="btn btn-primary btn-lg">Add</button>
                             </div>
                         </div>
                     </div>
@@ -677,8 +751,8 @@
         </div>
     </div>
     <!--**********************************
-                                                                                                Content body end
-                                                                                            ***********************************-->
+                                                                                                                                Content body end
+                                                                                                                            ***********************************-->
 
 
 @stop

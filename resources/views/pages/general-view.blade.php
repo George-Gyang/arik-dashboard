@@ -4,8 +4,8 @@
 
 
     <!--**********************************
-                                                                                                                    Content body start
-                                                                                                                ***********************************-->
+                                                                                                                                    Content body start
+                                                                                                                                ***********************************-->
     <div class="content-body">
         <!-- row -->
         <div class="container-fluid">
@@ -13,10 +13,14 @@
                 <div class="col-xl-9 col-xxl-12">
                     <div class="d-flex my-3 justify-content-between align-items-center">
                         <p class="text-dark fw-bold">Order Summary</p>
-                        <button class="btn rounded-pill btn-primary">+ Create a New Offer</button>
+                        <button type="button" class="btn rounded-pill btn-primary" data-toggle="modal"
+                            data-target="#createNewOder"><span><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24">
+                                    <path fill="white" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z" />
+                                </svg></span> Create a New Offer</button>
                     </div>
                     <div class="row">
-                        <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
+                        <div class=" col-lg-4 col-sm-6">
                             <div class="card overflow-hidden">
                                 <div class="card-body p-2">
                                     <div class="d-flex  justify-content-around">
@@ -66,7 +70,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
+                        <div class=" col-lg-4 col-sm-6">
                             <div class="card overflow-hidden">
                                 <div class="card-body p-2">
                                     <div class="d-flex  justify-content-around">
@@ -118,7 +122,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-xxl-3 col-lg-4 col-sm-6">
+                        <div class=" col-lg-4 col-sm-6">
                             <div class="card overflow-hidden">
                                 <div class="card-body p-2">
                                     <div class="d-flex  justify-content-around">
@@ -625,7 +629,212 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Modal for create New Oder Customer -->
+    <div class="modal fade" id="createNewOder">
+        <div class="modal-dialog modal-dialog-centered medium_modal" role="document">
+            <div class="modal-content">
+                <div class="modal-header align-items-center">
+                    <h5 class="modal-title">Group Payment Request</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            class="light px-2 rounded btn-warning ox_text">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between">
+                                <p>Order Details</p>
+                                <p>New Customer <span><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                            height="25" viewBox="0 0 24 24">
+                                            <path fill="currentColor"
+                                                d="M17 8H7c-2.21 0-4 1.79-4 4s1.79 4 4 4h10c2.21 0 4-1.79 4-4s-1.79-4-4-4zM7 15c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3z"
+                                                opacity=".3" />
+                                            <path fill="currentColor"
+                                                d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3s3-1.34 3-3s-1.34-3-3-3z" />
+                                        </svg></span></p>
+                            </div>
+                            <div class="d-flex bg-light rounded align-items-center">
+                                <select class=" w-100 " id="inlineFormCustomSelect">
+                                    <option selected>Select Customer</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <div class="d-flex bg-light rounded align-items-center">
+                                        <select class=" w-100 " id="inlineFormCustomSelect">
+                                            <option selected>Payment Type</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex bg-light rounded align-items-center">
+                                        <select class=" w-100 " id="inlineFormCustomSelect">
+                                            <option selected>Order Type</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <p class="small_text mb-0 mt-2">Order Time & Date</p>
+                                <div class="col-6 my-2 w-100">
+                                    <input type="date" class="form-control bg-light w-100" placeholder="2017-06-04"
+                                        id="mdate">
+
+                                </div>
+                                <div class="col-6 my-2 w-100">
+                                    <input type="time" class="form-control bg-light w-100" placeholder="2017-06-04"
+                                        id="mdate">
+                                </div>
+                            </div>
+                            <p class="small_text mb-0">Order Status</p>
+                            <div class="d-flex bg-light rounded align-items-center my-3">
+                                <select class=" w-100 " id="inlineFormCustomSelect">
+                                    <option selected>Pending</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control bg-light" rows="4" id="comment"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Items</p>
+                            <div>
+                                <div class="d-flex align-items-center px-1 border border-dark rounded">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 24 24">
+                                            <path fill="currentColor" fill-rule="evenodd"
+                                                d="M11 2a9 9 0 1 0 5.618 16.032l3.675 3.675a1 1 0 0 0 1.414-1.414l-3.675-3.675A9 9 0 0 0 11 2Zm-6 9a6 6 0 1 1 12 0a6 6 0 0 1-12 0Z"
+                                                clip-rule="evenodd" />
+                                        </svg> </span>
+                                    <input type="text" class="form-control input-sm border-0" placeholder="Username">
+                                </div>
+                                <ul class="list-group">
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">SilexSecure</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">Transcorp</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">Hilton</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">Sheraton</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">Agip</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">Ministry of Health</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item pb-2">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="{{ asset('images/iPhone.png') }}" alt="">
+                                            </div>
+                                            <div class="ps-2 w-100">
+                                                <p class="small_text mb-0">BUA Group</p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="mb-0"><b>₦730,000.00</b></p>
+                                                    <small><a href="">add item</a></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-outline-primary btn-lg">Cancel</button>
+                    <button type="button" class="btn btn-primary btn-lg">Create Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!--**********************************
-                                                                              Content body end
-                                                                         ***********************************-->
+                                                                                              Content body end
+                                                                                         ***********************************-->
 @stop

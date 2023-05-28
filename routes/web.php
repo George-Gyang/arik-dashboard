@@ -36,3 +36,7 @@ Route::get("/general-view", function () {
 Route::get("/summary", function () {
     return view("pages/summary");
 });
+
+Route::get("/empty", function () {
+    return view("pages/empty");
+});
